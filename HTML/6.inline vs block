@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            inline vs block
+        </title>
+
+    </head>
+    <body>
+        <h1>HEADING</h1>
+        <p>paragraph</p>
+        <a href="href://www.google.com">link</a>
+    </body>
+
+</html>
