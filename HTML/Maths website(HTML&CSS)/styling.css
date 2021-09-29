@@ -1,0 +1,19 @@
+#container {
+    width:1050px;
+    border:1px solid greenyellow;
+    height:100px;
+    margin:0 auto;
+}
+#brand{
+    float:left;
+}
+
+h1 a{
+    font-size:50px;
+    font-weight:100;
+    color:indigo;
+    text-decoration: none;
+}
+#searchBox{
+    float:right;
+}
