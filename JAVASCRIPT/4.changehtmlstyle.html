@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+              change html STYLE.
+          </title>
+          <style>
+            .bluebox{
+                background-color:blue;
+                color:white;
+                height:100px;
+                width:auto;
+            }
+            .blackbox{
+                background-color: black;
+                color:white;
+                height:100px;
+                width:auto;
+            }
+            .redbox{
+                background-color:tomato;
+                color:white;
+                height:100px;
+                width:auto;
+            }
+            .great{
+                background-color: seagreen;
+            }
+        </style>
+       
+     </head> 
+     <body>
+        <div class="bluebox" id="facebook">
+            <p>Facebook is <span class="great">great</span>.</p>
+        </div>
+        <div class="blackbox" id="apple">
+            <p>Apple.</p>
+        </div>
+        <div class="redbox">
+            <p>Space-X.</p>
+        </div>
+        <button id="button1">Change Facebook style.
+         </button>
+         <button id="button2">Change apple style.</button>
+         <script>
+         document.getElementById("button1").onclick=
+         function(){
+
+             document.getElementById("facebook").style.fontsize=
+             '4em';
+         }
+         document.getElementById("button2").onclick=
+         function(){
+             
+            document.getElementById("apple").style.width=
+            '250px';
+            document.getElementById("apple").style.fontsize=
+            '3em';
+
+            document.getElementById("apple").style.backgroundcolor=
+            'rgb(255, 71, 141)';
+         }
+         </script>
+    </body>
+
+</html>
